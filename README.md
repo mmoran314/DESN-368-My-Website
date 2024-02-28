@@ -1,18 +1,11 @@
-# Putting It All Together
+# DESN 368 Michael Moran Website
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/web-starter)
-
-
-> Computers are dumb. Humans make them smart.
-
-Starter (boilerplate) for all future projects.
 
 ## Why Does This Exist?
-* Don't start with nothing
-* Common boilerplate for web projects
-* I am a human being who makes mistakes
+This is my website for DESN 368
 
 ## Citations
-* [Text](URL)
-* [Google Fonts](fonts.google.com)
-* [CodePen](codepen.io)
+* [Favicon](https://favicon.io)
+* [Google Fonts Cabin Font](fonts.google.com/specimen/Cabin)
+* [Toptal](https://www.toptal.com/designers/subtlepatterns/papyrus-pattern/)
+* [Colin's WebStarter](https://github.com/ewuweblab/web-starter)

@@ -63,8 +63,32 @@ aside {
     color: var(--text-color);
     flex: 1 1 0;
 }
+aside h1 {
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-delay: 2s;
+    font-weight: 600;
+    font-size: 2rem;
+    animation-fill-mode: forwards;
+}
+aside h2 {
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-delay: 2.5s;
+    font-weight: 600;
+    font-size: 2rem;
+    animation-fill-mode: forwards;
+}
+aside p {
+    opacity: 0;
+    font-weight: 200;
+    font-size: 1rem;
+    animation: fadeIn 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
 body {
-    font-family: Caabin, sans-serif;
+    font-family: Cabin, sans-serif;
     
     background-image: url('../images/papyrus.webp');
     
