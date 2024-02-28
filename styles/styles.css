@@ -1,9 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 /* Color Variables */
 :root {
     --primary-color: #024c9a;
     --text-color: #2f2f2f;
-    --secondary-color: #097121;
+    --secondary-color: #13a134;
     --background-color: #c2c2c2;
-    --tertiary-color: #5ba64c;
+    --tertiary-color: #864b11;
     --alt-color: #17a2b8;
+    font-family:Cabin;
+}
+
+  
+  header {
+    background: var(--primary-color);
+    color: var(--background-color);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    font-family: Cabin;
+    border: var(--text-color) solid 1px;
+    border-radius: 5px;
   }
+.mainFlex {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+    background-color: var(--secondary-color);
+    margin: 1em;
+    border-radius: 5px;
+    border: var(--text-color) solid 0.5rem;
+    
+  }
+article {
+    margin-left: 0em;
+    padding: 1em;
+    border: var(--secondary-color) solid 1px;
+    border-radius: 5px;
+    background: var(--alt-color);
+    color: var(--text-color);
+    width: 40%;
+  }
+article img {
+    animation-name: slideInFromLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+
+
+width: 100%;
+height: auto;
+border: var(--text-color) solid 0.25rem;
+border-radius: 5px;
+transition: filter 1s;
+}
+aside {
+    margin: 1em;
+    padding: 1em;
+    border: var(--secondary-color) solid 1px;
+    border-radius: 5px;
+    color: var(--text-color);
+    flex: 1 1 0;
+}
+body {
+    font-family: Caabin, sans-serif;
+    
+    background-image: url('../images/papyrus.webp');
+    
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Media Queries */
