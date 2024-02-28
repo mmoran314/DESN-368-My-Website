@@ -23,6 +23,23 @@
     border: var(--text-color) solid 1px;
     border-radius: 5px;
   }
+footer {
+    background: var(--primary-color);
+    color: var(--background-color);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    font-family: Cabin;
+    border: var(--text-color) solid 1px;
+    border-radius: 5px;
+  }
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: var(--text-color) solid 0.25rem;
+    transition: filter 1s;
+}
 .mainFlex {
     display: flex;
     justify-content: start;
