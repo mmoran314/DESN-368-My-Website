@@ -7,7 +7,7 @@
     --text-color: #2f2f2f;
     --secondary-color: #13a134;
     --background-color: #c2c2c2;
-    --tertiary-color: #864b11;
+    --tertiary-color: #5a939c;
     --alt-color: #17a2b8;
     font-family:Cabin;
 }
@@ -51,6 +51,20 @@ footer img {
     border: var(--text-color) solid 0.5rem;
     
   }
+
+.career {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border: var(--text-color) solid 0.5rem;
+    border-radius: 5px;
+    background: var(--tertiary-color);
+    color: var(--text-color);
+    margin: 1em;
+  
+}
+
 article {
     margin-left: 0em;
     padding: 1em;
