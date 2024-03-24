@@ -1,5 +1,6 @@
 # DESN 368 Michael Moran Website
-
+https://michaelmoran.me  
+https://mmorandesn368.netlify.app/
 
 ## Why Does This Exist?
 This is my website for DESN 368  
