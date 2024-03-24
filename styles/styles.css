@@ -54,6 +54,7 @@ footer img {
 
 .career {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1em;
@@ -62,7 +63,23 @@ footer img {
     background: var(--tertiary-color);
     color: var(--text-color);
     margin: 1em;
+    font-size: larger;
   
+}
+.career img {
+    width : 20%;
+    border: solid 0.25rem var(--text-color);
+    border-radius: 5px;
+}
+.education {
+    width: 100%;
+}
+.experience {
+    width: 100%;
+}
+.skills {
+    width: 100%;
+
 }
 
 article {
