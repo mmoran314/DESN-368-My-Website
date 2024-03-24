@@ -2,7 +2,8 @@
 
 
 ## Why Does This Exist?
-This is my website for DESN 368
+This is my website for DESN 368  
+I'm not as proud of this one as the other two websites, but this is the one that I plan on remaking using Vue.
 
 ## Citations
 * [Favicon](https://favicon.io)
